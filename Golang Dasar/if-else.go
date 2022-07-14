@@ -20,7 +20,7 @@ func main (){
 	// 	fmt.Println("nama sudah benar")
 	// }
 
-	if length := len(name) ;length > 5 {
+	if length := len(name) ;length > 5 { // with short statement
 		fmt.Println("nama terlalu panjang")
 	} else {
 		fmt.Println("nama sudah benar")
